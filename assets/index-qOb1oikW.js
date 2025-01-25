@@ -13733,7 +13733,7 @@ const mv = new E6(),
                       className: "TaskPanel_media",
                       children: [
                         p.jsx("a", {
-                          href: "https://t.me/Windowsolana",
+                          href: "https://x.com/Windowsolana",
                           target: "_blank",
                           children: p.jsx("img", {
                             src: "/img/media/x.png",
