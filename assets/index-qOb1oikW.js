@@ -12939,33 +12939,7 @@ const mv = new E6(),
           p.jsxs("div", {
             className: "Desctop_links",
             children: [
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: () => {
-                  ue.setWindowStatus("state", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/stateLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "$knut State",
-                  }),
-                ],
-              }),
+  
               p.jsxs("div", {
                 className: "Desctop_link",
                 onClick: () => {
@@ -12993,33 +12967,33 @@ const mv = new E6(),
                   }),
                 ],
               }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: () => {
-                  ue.setWindowStatus("whitepaper", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/whitepaperLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Whitepaper",
-                  }),
-                ],
-              }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: () => {
+              //     ue.setWindowStatus("whitepaper", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/whitepaperLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Whitepaper",
+              //     }),
+              //   ],
+              // }),
               p.jsxs("div", {
                 className: "Desctop_link",
                 onClick: () => {
@@ -13074,61 +13048,61 @@ const mv = new E6(),
                   }),
                 ],
               }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: () => {
-                  ue.setWindowStatus("memes", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/memesLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Memes",
-                  }),
-                ],
-              }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: async () => {
-                  Re.wallet || (await Re.connectWallet()),
-                    ue.setWindowStatus("TTT", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/TTTLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Tic-tac-toe",
-                  }),
-                ],
-              }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: () => {
+              //     ue.setWindowStatus("memes", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/memesLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Memes",
+              //     }),
+              //   ],
+              // }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: async () => {
+              //     Re.wallet || (await Re.connectWallet()),
+              //       ue.setWindowStatus("TTT", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/TTTLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Tic-tac-toe",
+              //     }),
+              //   ],
+              // }),
               p.jsxs("div", {
                 className: "Desctop_link",
                 onClick: () => {
@@ -13152,314 +13126,314 @@ const mv = new E6(),
                   }),
                   p.jsx("div", {
                     className: "Desctop_link_text",
-                    children: "knutPaint",
+                    children: "WindowsPaint",
                   }),
                 ],
               }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: () => {
-                  ue.setWindowStatus("staking", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/stakingLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Staking",
-                  }),
-                ],
-              }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: async () => {
-                  Re.wallet || (await Re.connectWallet()),
-                    ue.setWindowStatus("thimbles", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/thimblesLink.png",
-                      className: "Desctop_link_img Desctop_link_img_ball",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Thimbles",
-                  }),
-                ],
-              }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: async () => {
-                  Re.wallet || (await Re.connectWallet()),
-                    ue.setWindowStatus("flappy", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/flappyLink.png",
-                      className: "Desctop_link_img Desctop_link_img_ball",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Flappy Knut",
-                  }),
-                ],
-              }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: () => {
-                  ue.setWindowStatus("memeGen", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/memeGenLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Meme Generator",
-                  }),
-                ],
-              }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: async () => {
-                  Re.wallet || (await Re.connectWallet()),
-                    ue.setWindowStatus("minesweeper", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/minesweeperLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Mine sweeper",
-                  }),
-                ],
-              }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: () => {
-                  ue.setWindowStatus("chart", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/chartLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Chart",
-                  }),
-                ],
-              }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: async () => {
-                  Re.wallet || (await Re.connectWallet()),
-                    ue.setWindowStatus("snake", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/snakeLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Snake",
-                  }),
-                ],
-              }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: async () => {
-                  Re.wallet || (await Re.connectWallet()),
-                    ue.setWindowStatus("wack", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/wackLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Wack-a-Knut",
-                  }),
-                ],
-              }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: async () => {
-                  ue.setWindowStatus("team", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/teamLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Backers",
-                  }),
-                ],
-              }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: async () => {
-                  Re.wallet || (await Re.connectWallet()),
-                    ue.setWindowStatus("chat", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/chatLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Chat",
-                  }),
-                ],
-              }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: async () => {
-                  Re.wallet || (await Re.connectWallet()),
-                    ue.setWindowStatus("calendar", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/calendarLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Giveaway Calendar",
-                  }),
-                ],
-              }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: () => {
+              //     ue.setWindowStatus("staking", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/stakingLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Staking",
+              //     }),
+              //   ],
+              // }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: async () => {
+              //     Re.wallet || (await Re.connectWallet()),
+              //       ue.setWindowStatus("thimbles", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/thimblesLink.png",
+              //         className: "Desctop_link_img Desctop_link_img_ball",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Thimbles",
+              //     }),
+              //   ],
+              // }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: async () => {
+              //     Re.wallet || (await Re.connectWallet()),
+              //       ue.setWindowStatus("flappy", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/flappyLink.png",
+              //         className: "Desctop_link_img Desctop_link_img_ball",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Flappy WINDOWS",
+              //     }),
+              //   ],
+              // }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: () => {
+              //     ue.setWindowStatus("memeGen", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/memeGenLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Meme Generator",
+              //     }),
+              //   ],
+              // }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: async () => {
+              //     Re.wallet || (await Re.connectWallet()),
+              //       ue.setWindowStatus("minesweeper", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/minesweeperLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Mine sweeper",
+              //     }),
+              //   ],
+              // }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: () => {
+              //     ue.setWindowStatus("chart", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/chartLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Chart",
+              //     }),
+              //   ],
+              // }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: async () => {
+              //     Re.wallet || (await Re.connectWallet()),
+              //       ue.setWindowStatus("snake", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/snakeLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Snake",
+              //     }),
+              //   ],
+              // }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: async () => {
+              //     Re.wallet || (await Re.connectWallet()),
+              //       ue.setWindowStatus("wack", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/wackLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Wack-a-Windows",
+              //     }),
+              //   ],
+              // }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: async () => {
+              //     ue.setWindowStatus("team", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/teamLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Backers",
+              //     }),
+              //   ],
+              // }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: async () => {
+              //     Re.wallet || (await Re.connectWallet()),
+              //       ue.setWindowStatus("chat", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/chatLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Chat",
+              //     }),
+              //   ],
+              // }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: async () => {
+              //     Re.wallet || (await Re.connectWallet()),
+              //       ue.setWindowStatus("calendar", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/calendarLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Giveaway Calendar",
+              //     }),
+              //   ],
+              // }),
             ],
           }),
         ],
@@ -13482,7 +13456,7 @@ const mv = new E6(),
               }),
               p.jsx("div", {
                 className: "Pusk_name_text free_img",
-                children: "$knut",
+                children: "$Windows",
               }),
             ],
           }),
@@ -13516,22 +13490,22 @@ const mv = new E6(),
                       "Change wallpaper",
                     ],
                   }),
-                  p.jsxs("a", {
-                    className: "Pusk_link",
-                    onClick: () => {
-                      Re.connectWallet(), ue.setWindowStatus("chat", "opened");
-                    },
-                    children: [
-                      p.jsx("div", {
-                        className: "Pusk_link_img",
-                        children: p.jsx("img", {
-                          src: "/img/links/chatLink.png",
-                          alt: "decor",
-                        }),
-                      }),
-                      "Chat",
-                    ],
-                  }),
+                  // p.jsxs("a", {
+                  //   className: "Pusk_link",
+                  //   onClick: () => {
+                  //     Re.connectWallet(), ue.setWindowStatus("chat", "opened");
+                  //   },
+                  //   children: [
+                  //     p.jsx("div", {
+                  //       className: "Pusk_link_img",
+                  //       children: p.jsx("img", {
+                  //         src: "/img/links/chatLink.png",
+                  //         alt: "decor",
+                  //       }),
+                  //     }),
+                  //     "Chat",
+                  //   ],
+                  // }),
                   p.jsxs("div", {
                     className: "Pusk_link Pusk_link_header",
                     children: [
@@ -13688,7 +13662,7 @@ const mv = new E6(),
                             }),
                             p.jsx("div", {
                               className: "TaskPanel_tab_text",
-                              children: "$Knut",
+                              children: "$Windows",
                             }),
                           ],
                         }),
@@ -13721,35 +13695,35 @@ const mv = new E6(),
                         ),
                       ],
                     }),
-                    p.jsx("div", {
-                      className: "TaskPanel_left_right",
-                      children: p.jsxs("button", {
-                        className: "TaskPanel_tab",
-                        onClick: () => {
-                          Re.changeWalletConnectedStatus();
-                        },
-                        children: [
-                          p.jsx("img", {
-                            src: "/img/phantom.png",
-                            alt: "decor",
-                          }),
-                          p.jsx("div", {
-                            className: "TaskPanel_tab_text TaskPanel_tab_ph",
-                            children: Re.wallet
-                              ? p.jsxs(p.Fragment, {
-                                  children: [
-                                    Re.wallet.slice(0, 4),
-                                    "...",
-                                    Re.wallet.slice(-4),
-                                  ],
-                                })
-                              : p.jsx(p.Fragment, {
-                                  children: "Connect Phantom",
-                                }),
-                          }),
-                        ],
-                      }),
-                    }),
+                    // p.jsx("div", {
+                    //   className: "TaskPanel_left_right",
+                    //   children: p.jsxs("button", {
+                    //     className: "TaskPanel_tab",
+                    //     onClick: () => {
+                    //       Re.changeWalletConnectedStatus();
+                    //     },
+                    //     children: [
+                    //       p.jsx("img", {
+                    //         src: "/img/phantom.png",
+                    //         alt: "decor",
+                    //       }),
+                    //       p.jsx("div", {
+                    //         className: "TaskPanel_tab_text TaskPanel_tab_ph",
+                    //         children: Re.wallet
+                    //           ? p.jsxs(p.Fragment, {
+                    //               children: [
+                    //                 Re.wallet.slice(0, 4),
+                    //                 "...",
+                    //                 Re.wallet.slice(-4),
+                    //               ],
+                    //             })
+                    //           : p.jsx(p.Fragment, {
+                    //               children: "Connect Phantom",
+                    //             }),
+                    //       }),
+                    //     ],
+                    //   }),
+                    // }),
                   ],
                 }),
                 p.jsxs("div", {
@@ -13782,14 +13756,14 @@ const mv = new E6(),
                             alt: "decor",
                           }),
                         }),
-                        p.jsx("a", {
-                          href: "https://discord.gg/kSsdkkHmNU",
-                          target: "_blank",
-                          children: p.jsx("img", {
-                            src: "/img/media/ds.png",
-                            alt: "decor",
-                          }),
-                        }),
+                        // p.jsx("a", {
+                        //   href: "https://discord.gg/kSsdkkHmNU",
+                        //   target: "_blank",
+                        //   children: p.jsx("img", {
+                        //     src: "/img/media/ds.png",
+                        //     alt: "decor",
+                        //   }),
+                        // }),
                       ],
                     }),
                     p.jsx("div", { className: "TaskPanel_vl" }),
@@ -13893,7 +13867,7 @@ const pt = mn(({ children: r, type: e }) => {
               className: "title-bar-text",
               children: [
                 p.jsx("img", { src: `/img/links/${e}Link.png`, alt: "decor" }),
-                e === "state" && "$knut State",
+                e === "state" && "$Windows State",
                 e === "roadmap" && "Roadmap",
                 e === "whitepaper" && "Whitepaper",
                 e === "tokenomics" && "Tokenomics",
@@ -13901,14 +13875,14 @@ const pt = mn(({ children: r, type: e }) => {
                 e === "memes" && "Memes",
                 e === "shutdown" && "Shut Down",
                 e === "cantClose" && "Error",
-                e === "player" && "$knut player",
+                e === "player" && "$Windows player",
                 e === "TTT" && "Tic-tac-toe",
-                e === "paint" && "knutPaint",
+                e === "paint" && "WindowsPaint",
                 e === "memeGen" && "Meme Generator",
                 e === "airdrop" && "Airdrop",
                 e === "thimbles" && "Thimbles",
                 e === "thimbleswm" && "Icebergs",
-                e === "flappy" && "Flappy Knut",
+                e === "flappy" && "Flappy Windows",
                 e === "flappyLeaderboard" && "Leaderboard",
                 e === "snakeLeaderboard" && "Leaderboard",
                 e === "wackLeaderboard" && "Leaderboard",
@@ -13920,11 +13894,11 @@ const pt = mn(({ children: r, type: e }) => {
                 e === "snake" && "Snake",
                 e === "changeWallpaper" && "Change wallpaper",
                 e === "staking" && "Staking",
-                e === "wack" && "Wack-a-Knut",
+                e === "wack" && "Wack-a-Windows",
                 e === "chat" && "Chat",
                 e === "quests" && "Quests",
                 e === "team" && "Backers",
-                e === "calendar" && "Giveaway calendar",
+                // e === "calendar" && "Giveaway calendar",
               ],
             }),
             p.jsxs("div", {
@@ -16209,11 +16183,11 @@ const xr = new lj(),
         children: [
           p.jsx("div", {
             className: "Roadmap_header",
-            children: "$KNUT - Steak Baby Roadmap",
+            children: "$Windows - Steak Baby Roadmap",
           }),
           p.jsx("div", {
             className: "Roadmap_phase",
-            children: 'Year 1: "The $KNUT"',
+            children: 'Year 1: "The $Windows"',
           }),
           p.jsx("div", {
             className: "Roadmap_step",
@@ -16249,11 +16223,11 @@ const xr = new lj(),
           }),
           p.jsx("div", {
             className: "Roadmap_step",
-            children: "- Big Apes : $PNUT, $FRED, $MOODENG, $KNUT",
+            children: "- Big Apes : $PNUT, $FRED, $MOODENG, $Windows",
           }),
           p.jsx("div", {
             className: "Roadmap_step",
-            children: "- Everyone doing the $KNUT shuffle.",
+            children: "- Everyone doing the $Windows shuffle.",
           }),
           p.jsx("div", {
             className: "Roadmap_step",
@@ -16269,7 +16243,7 @@ const xr = new lj(),
           }),
           p.jsx("div", {
             className: "Roadmap_step",
-            children: "- 5M Treasury: Knut keeps printing.",
+            children: "- 5M Treasury: Windows keeps printing.",
           }),
           p.jsx("div", {
             className: "Roadmap_step",
@@ -16285,7 +16259,7 @@ const xr = new lj(),
           }),
           p.jsx("div", {
             className: "Roadmap_step",
-            children: "- Zoo-Meta takeover: $KNUT is king.",
+            children: "- Zoo-Meta takeover: $Windows is king.",
           }),
           p.jsx("div", {
             className: "Roadmap_step",
@@ -16293,17 +16267,17 @@ const xr = new lj(),
           }),
           p.jsx("div", {
             className: "Roadmap_header",
-            children: "Scaling the $KNUT Empire: Everything, but Better",
+            children: "Scaling the $Windows Empire: Everything, but Better",
           }),
           p.jsx("div", {
             className: "Roadmap_step",
             children:
-              "$KNUT isn’t here to play—it’s here to dominate. Scaling isn’t just about building; it’s about outbuilding, outmemeing, and outlasting everyone else in the Web3 tundra.",
+              "$Windows isn’t here to play—it’s here to dominate. Scaling isn’t just about building; it’s about outbuilding, outmemeing, and outlasting everyone else in the Web3 tundra.",
           }),
           p.jsx("div", {
             className: "Roadmap_step",
             children:
-              "We’re creating everything that already exists, but cooler, slicker, and with STEAKS. DeFi? Ours. NFTs? Done better. P2E games? Zoo-level wild. Think social platforms, staking protocols, charitable initiatives, DEXs, multi-chain integrations, and utility tools**—all with the **KNUT flair and memecoin vibe.",
+              "We’re creating everything that already exists, but cooler, slicker, and with STEAKS. DeFi? Ours. NFTs? Done better. P2E games? Zoo-level wild. Think social platforms, staking protocols, charitable initiatives, DEXs, multi-chain integrations, and utility tools**—all with the **Windows flair and memecoin vibe.",
           }),
           p.jsx("div", {
             className: "Roadmap_step",
@@ -16346,7 +16320,7 @@ const xr = new lj(),
           p.jsx("div", {
             className: "Roadmap_step",
             children:
-              "The world is building Web3—we’re building Web3 better. $KNUT isn’t just scaling; it’s creating an empire. We’ll claim the Arctic, Web3, and everything in between.",
+              "The world is building Web3—we’re building Web3 better. $Windows isn’t just scaling; it’s creating an empire. We’ll claim the Arctic, Web3, and everything in between.",
           }),
           p.jsx("div", {
             className: "Roadmap_step",
@@ -16354,7 +16328,7 @@ const xr = new lj(),
           }),
           p.jsx("div", {
             className: "Roadmap_step",
-            children: "$KNUT forever. Wagmi. Steak soon.",
+            children: "$Windows forever. Wagmi. Steak soon.",
           }),
           p.jsx("div", {
             className: "Roadmap_header",
@@ -21601,7 +21575,7 @@ const M5 = (r) => {
       "Phase 2 ✅",
       "Phase 3 ✅ [JUSTICE]",
       "Loading...",
-      "Rip Knut xx",
+      "Rip Windows xx",
     ];
     return (
       K.useEffect(() => {
@@ -22872,12 +22846,12 @@ const Ee = new L5(),
         className: "Shutdown",
         children: [
           p.jsx("div", {
-            className: "Shutdown_decor",
-            children: p.jsx("img", { src: "/img/dead.png", alt: "decor" }),
+            // className: "Shutdown_decor",
+            // children: p.jsx("img", { src: "/img/dead.png", alt: "decor" }),
           }),
           p.jsx("div", {
             className: "Shutdown_header",
-            children: "Bear is dead",
+            children: "Windows is not dead",
           }),
           p.jsxs("div", {
             className: "Shutdown_buttons",
@@ -24264,7 +24238,7 @@ const yo = ["Body", "Accessory", "Clothes", "Hat", "Sunglasses", "BG"],
                   }),
                   p.jsx("div", {
                     className: "MemeGen_header",
-                    children: "Customize your $knut",
+                    children: "Customize your $Windows",
                   }),
                 ],
               }),
@@ -67611,7 +67585,7 @@ const sie = async (r, e, t) => {
                         className: "Flappy_play_btn Flappy_play_btn_mob",
                         onClick: (t) => {
                           t.preventDefault();
-                          const n = `I REACHED ${Vt.score} POINTS IN FLAPPY KNUT`,
+                          const n = `I REACHED ${Vt.score} POINTS IN FLAPPY Windows`,
                             o = `https://x.com/intent/tweet?text=${encodeURIComponent(
                               n
                             )}&hashtags=KNUT&url=${encodeURIComponent(
@@ -68580,7 +68554,7 @@ const vie = () => {
               className: "Quests_balance",
               children: [
                 "Balance ",
-                p.jsxs("span", { children: [Bc.me.balance, " $knut"] }),
+                p.jsxs("span", { children: [Bc.me.balance, " $Windows"] }),
               ],
             }),
             p.jsx("div", {
@@ -68658,7 +68632,7 @@ const vie = () => {
                                         }),
                                         " (+",
                                         l.price,
-                                        " $knut)",
+                                        " $Windows)",
                                       ],
                                     }),
                                   ],
@@ -68730,7 +68704,7 @@ const vie = () => {
                                     }),
                                     p.jsxs("div", {
                                       className: "Quests_socials_element_price",
-                                      children: ["(+", l.price, " $knut)"],
+                                      children: ["(+", l.price, " $Windows)"],
                                     }),
                                   ],
                                 }),
@@ -69254,12 +69228,12 @@ const Pie = () =>
     const d = (_, v) => {
         s((w) => {
           const x = [...w];
-          return (x[_] = "knut"), x;
+          return (x[_] = "Windows"), x;
         }),
           setTimeout(() => {
             s((w) => {
               const x = [...w];
-              return x[_] === "knut" && (x[_] = "empty"), x;
+              return x[_] === "Windows" && (x[_] = "empty"), x;
             });
           }, v);
       },
@@ -69267,7 +69241,7 @@ const Pie = () =>
         s((v) => {
           const w = [...v];
           return (
-            w[_] === "knut"
+            w[_] === "Windows"
               ? ((w[_] = "dead"),
                 n((x) => x + 1),
                 setTimeout(() => {
@@ -69365,7 +69339,7 @@ const Pie = () =>
                               src: "/img/wack/empty.png",
                               alt: "",
                             }),
-                          _ === "knut" &&
+                          _ === "Windows" &&
                             p.jsx("img", {
                               src: "/img/wack/knut.png",
                               alt: "",
