@@ -13515,7 +13515,7 @@ const mv = new E6(),
                   }),
                   p.jsx("div", { className: "Pusk_hr" }),
                   p.jsxs("a", {
-                    href: "https://x.com/knutfanpage?s=21&t=H7dk8e7qY0TSyg4v3SbSFw",
+                    href: "https://t.me/Windowsolana",
                     target: "_blank",
                     className: "Pusk_link",
                     children: [
@@ -13530,7 +13530,7 @@ const mv = new E6(),
                     ],
                   }),
                   p.jsxs("a", {
-                    href: "https://t.me/knutonsol",
+                    href: "https://t.me/Windowsolana",
                     target: "_blank",
                     className: "Pusk_link",
                     children: [
@@ -13733,7 +13733,7 @@ const mv = new E6(),
                       className: "TaskPanel_media",
                       children: [
                         p.jsx("a", {
-                          href: "https://x.com/knutfanpage?s=21&t=H7dk8e7qY0TSyg4v3SbSFw",
+                          href: "https://t.me/Windowsolana",
                           target: "_blank",
                           children: p.jsx("img", {
                             src: "/img/media/x.png",
@@ -13741,7 +13741,7 @@ const mv = new E6(),
                           }),
                         }),
                         p.jsx("a", {
-                          href: "https://t.me/knutonsol",
+                          href: "https://t.me/Windowsolana",
                           target: "_blank",
                           children: p.jsx("img", {
                             src: "/img/media/tg.png",
@@ -67577,7 +67577,7 @@ const sie = async (r, e, t) => {
                       }),
                       p.jsx("a", {
                         className: "Flappy_play_btn Flappy_play_btn_pc",
-                        href: `https://x.com/intent/post?hashtags=KNUT&text=I+REACHED+${Vt.score}+POINTS+IN+FLAPPY+KNUT%0D%0A&url=https://knut.wtf%0D%0A`,
+                        href: `https://x.com/Windowsolana`,
                         target: "_blank",
                         children: "Share",
                       }),
