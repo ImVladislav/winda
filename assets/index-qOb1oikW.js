@@ -13545,7 +13545,7 @@ const mv = new E6(),
                     ],
                   }),
                   p.jsxs("a", {
-                    href: "/",
+                    href: "https://dexscreener.com/solana/fyym91htlr1hpfasg2eglydi22knvoeffmfybvdmvnva",
                     target: "_blank",
                     className: "Pusk_link",
                     children: [
@@ -13749,7 +13749,7 @@ const mv = new E6(),
                           }),
                         }),
                         p.jsx("a", {
-                          href: "/",
+                          href: "https://dexscreener.com/solana/fyym91htlr1hpfasg2eglydi22knvoeffmfybvdmvnva",
                           target: "_blank",
                           children: p.jsx("img", {
                             src: "/img/media/bird.png",
@@ -16159,7 +16159,7 @@ const xr = new lj(),
                 p.jsx("button", {
                   onClick: () => {
                     window.open(
-                      "/",
+                      "https://dexscreener.com/solana/fyym91htlr1hpfasg2eglydi22knvoeffmfybvdmvnva",
                       "_blank"
                     );
                   },
@@ -22859,7 +22859,7 @@ const Ee = new L5(),
               p.jsx("button", {
                 onClick: () => {
                   window.open(
-                    "/",
+                    "https://dexscreener.com/solana/fyym91htlr1hpfasg2eglydi22knvoeffmfybvdmvnva",
                     "_blank"
                   );
                 },
