@@ -12940,33 +12940,33 @@ const mv = new E6(),
             className: "Desctop_links",
             children: [
   
-              // p.jsxs("div", {
-              //   className: "Desctop_link",
-              //   onClick: () => {
-              //     ue.setWindowStatus("roadmap", "opened");
-              //   },
-              //   children: [
-              //     p.jsx("div", {
-              //       className: "Desctop_link_img_wrapper",
-              //       children: p.jsx("img", {
-              //         src: "/img/links/roadmapLink.png",
-              //         className: "Desctop_link_img",
-              //         alt: "decor",
-              //       }),
-              //     }),
-              //     p.jsx("div", {
-              //       className: "Desctop_link_arrow free_img",
-              //       children: p.jsx("img", {
-              //         src: "/img/links/arrow.png",
-              //         alt: "decor",
-              //       }),
-              //     }),
-              //     p.jsx("div", {
-              //       className: "Desctop_link_text",
-              //       children: "Roadmap",
-              //     }),
-              //   ],
-              // }),
+              p.jsxs("div", {
+                className: "Desctop_link",
+                onClick: () => {
+                  ue.setWindowStatus("roadmap", "opened");
+                },
+                children: [
+                  p.jsx("div", {
+                    className: "Desctop_link_img_wrapper",
+                    children: p.jsx("img", {
+                      src: "/img/links/roadmapLink.png",
+                      className: "Desctop_link_img",
+                      alt: "decor",
+                    }),
+                  }),
+                  p.jsx("div", {
+                    className: "Desctop_link_arrow free_img",
+                    children: p.jsx("img", {
+                      src: "/img/links/arrow.png",
+                      alt: "decor",
+                    }),
+                  }),
+                  p.jsx("div", {
+                    className: "Desctop_link_text",
+                    children: "Contract",
+                  }),
+                ],
+              }),
               // p.jsxs("div", {
               //   className: "Desctop_link",
               //   onClick: () => {
@@ -13515,7 +13515,7 @@ const mv = new E6(),
                   }),
                   p.jsx("div", { className: "Pusk_hr" }),
                   p.jsxs("a", {
-                    href: "https://t.me/Windowsolana",
+                    href: "https://x.com/Windowsolana",
                     target: "_blank",
                     className: "Pusk_link",
                     children: [
@@ -13868,7 +13868,7 @@ const pt = mn(({ children: r, type: e }) => {
               children: [
                 p.jsx("img", { src: `/img/links/${e}Link.png`, alt: "decor" }),
                 e === "state" && "$Windows State",
-                e === "roadmap" && "Roadmap",
+                e === "roadmap" && "Contract",
                 e === "whitepaper" && "Whitepaper",
                 e === "tokenomics" && "Tokenomics",
                 e === "milestones" && "Milestones",
@@ -16171,420 +16171,36 @@ const xr = new lj(),
       }),
     })
   ),
-  cj = mn(uj),
-  hj = (r) => (
-    K.useEffect(() => {
-      xr.completeQuest("roadmap");
-    }, []),
-    p.jsx(pt, {
-      type: "roadmap",
-      children: p.jsxs("div", {
-        className: "Roadmap",
-        children: [
-          p.jsx("div", {
-            className: "Roadmap_header",
-            children: "$Windows - Steak Baby Roadmap",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: 'Year 1: "The $Windows"',
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- From $10K MC to GG EZ Moon.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Community rallies hard—memes go brrr.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Zoo-Meta prep.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: 'Year 2: "MrGigaSer"',
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Tokenomics: Degenerate but genius.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Staking? Soon™.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- First partnerships: Zoo Gang grows.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: 'Year 3: "Steak Prep"',
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Big Apes : $PNUT, $FRED, $MOODENG, $Windows",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Everyone doing the $Windows shuffle.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- **Treasury fattening up**—GG easy $5M.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: 'Year 4: "Steak Baby Era"',
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Charity Flex: Polar bear vibes.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- 5M Treasury: Windows keeps printing.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Community = Degens United.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: 'Year 5: "Binance or Bust"',
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Mainstream listing hype.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Zoo-Meta takeover: $Windows is king.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Steak? Now.  Maybe.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_header",
-            children: "Scaling the $Windows Empire: Everything, but Better",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "$Windows isn’t here to play—it’s here to dominate. Scaling isn’t just about building; it’s about outbuilding, outmemeing, and outlasting everyone else in the Web3 tundra.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "We’re creating everything that already exists, but cooler, slicker, and with STEAKS. DeFi? Ours. NFTs? Done better. P2E games? Zoo-level wild. Think social platforms, staking protocols, charitable initiatives, DEXs, multi-chain integrations, and utility tools**—all with the **Windows flair and memecoin vibe.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "Our secret sauce? We combine relentless community power, battle-tested tokenomics, and a zero-prisoner mentality to crush competitors. We don’t just follow trends; we take the best of what’s out there, make it unstoppable, and slap a polar bear logo on it.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: "We’ll scale with:",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "- Cross-chain dominance: From Ethereum to Solana and beyond.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- NFT ecosystems: Zoo-Meta drops that actually slap.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "- Web3 marketplaces: Degenerate shopping sprees for the community.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "- Game-changing DeFi protocols: Staking? Steakified. Farming? Yielded.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "- Education platforms: Because even degens need DYOR tools.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "- Global outreach: Memes, marketing, and mainstream partnerships.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "The world is building Web3—we’re building Web3 better. $Windows isn’t just scaling; it’s creating an empire. We’ll claim the Arctic, Web3, and everything in between.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "Because if they’ve built it, we’ll build it better.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "$Windows forever. Wagmi. Steak soon.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_header",
-            children: "The Ultimate Guide to Cooking Steak",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "Steak is an art form, and whether you’re a grill master or a kitchen newbie, there’s a cooking method for you. Here’s a breakdown of the most popular ways to cook steak—because no matter the style, the goal is always perfection.",
-          }),
-          "---",
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: " 1. Grilling (Classic Steakhouse Style)",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "Best For: Ribeye, T-bone, or Sirloin.",
-          }),
-          p.jsx("div", { className: "Roadmap_step", children: "Steps:" }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "1. Preheat your grill to high heat.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "2. Season your steak with salt, pepper, and olive oil.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "3. Sear for 3-5 minutes per side for medium-rare (internal temp: 130°F/54°C).",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "4. Rest for 5-10 minutes before serving.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "Pro Tip: For grill marks, rotate your steak 45° halfway through searing each side.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: " 2. Pan-Seared (Quick and Flavorful)",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "Best For: Filet Mignon, Strip Steak.",
-          }),
-          p.jsx("div", { className: "Roadmap_step", children: "Steps:" }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "1. Heat a heavy skillet (cast iron is ideal) until smoking hot.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "2. Add oil and lay your seasoned steak in the pan.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "3. Sear for 3-4 minutes per side. Add butter, garlic, and herbs (like rosemary) for a butter-basted finish.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "4. Rest before serving.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "Pro Tip: Spoon melted butter over the steak while it cooks for extra flavor.",
-          }),
-          "---",
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: " 3. Sous Vide (Precision Cooking)",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "Best For: All cuts, especially thick ones.",
-          }),
-          p.jsx("div", { className: "Roadmap_step", children: "Steps:" }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "1. Season your steak and seal it in a vacuum bag.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "2. Cook in a sous vide bath at your desired temperature (e.g., 129°F/54°C for medium-rare) for 1-3 hours.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "3. Finish with a hot sear in a skillet or grill for a crispy crust.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "Pro Tip: Sous vide ensures perfect doneness, so focus on the sear for the ultimate steak.",
-          }),
-          "---",
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: " 4. Broiling (Oven Magic)",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "Best For: Flank Steak, Skirt Steak.",
-          }),
-          p.jsx("div", { className: "Roadmap_step", children: "STEPS:" }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "1. Preheat your oven’s broiler and place the steak on a rack over a baking sheet.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "2. Broil 3-4 inches from the heat source for 4-6 minutes per side.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "3. Let it rest before slicing.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "Pro Tip: Use a marinade to tenderize tougher cuts before broiling.",
-          }),
-          "---",
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: " 5. Reverse Searing (Best for Thick Cuts)",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "Best For: Tomahawk, Porterhouse.",
-          }),
-          p.jsx("div", { className: "Roadmap_step", children: "Steps:" }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "1. Preheat your oven to 275°F (135°C).",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "2. Slowly cook the steak on a wire rack until it reaches 10°F below your desired doneness.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "3. Sear in a hot skillet for 1-2 minutes per side.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "Pro Tip: This method gives you an even cook with a perfect crust.",
-          }),
-          "---",
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: " 6. Smoking (For the BBQ Enthusiast)",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "Best For: Brisket-style cuts or any fatty steak.",
-          }),
-          p.jsx("div", { className: "Roadmap_step", children: "Steps:" }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "1. Preheat your smoker to 225°F (107°C).",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "2. Season your steak generously and smoke for 30-60 minutes.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "3. Finish with a high-heat sear if needed.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "Pro Tip: Add wood chips (like hickory or mesquite) for smoky flavor.",
-          }),
-          "---",
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: " 7. Steak Tartare (No Cooking Required!)",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "Best For: High-quality, super fresh cuts (e.g., tenderloin).",
-          }),
-          p.jsx("div", { className: "Roadmap_step", children: "Steps:" }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "1. Dice the steak finely.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "2. Mix with raw egg yolk, capers, mustard, and seasonings.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "3. Serve cold with toast or crackers.",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children:
-              "Pro Tip: Always use steak-grade meat and keep it chilled.",
-          }),
-          "---",
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children: " Steak Doneness Temperatures:",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Rare: 120-125°F (49-52°C)",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Medium-Rare: 130-135°F (54-57°C)",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Medium: 140-145°F (60-63°C)",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Medium-Well: 150-155°F (65-68°C)",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "- Well-Done: 160°F+ (71°C+)",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_phase",
-            children:
-              "No matter how you cook it, rest your steak for 5-10 minutes before slicing—it locks in those juices and ensures maximum flavor. Now grab your favorite cut, fire up your tools, and get cooking! Steak baby, soon!",
-          }),
-          p.jsx("div", {
-            className: "Roadmap_step",
-            children: "Thx 4 reading",
-          }),
-          p.jsx("div", { className: "Roadmap_step", children: "Wp rip xx" }),
-        ],
-      }),
-    })
-  ),
+cj = mn(uj),
+hj = (r) => (
+  K.useEffect(() => {
+    xr.completeQuest("roadmap");
+  }, []),
+  p.jsx(pt, {
+    type: "roadmap",
+    children: p.jsxs("div", {
+      className: "Roadmap",
+      children: [
+        p.jsxs("div", {
+          className: "Contract",
+          children: [
+            "w1nS1eDDZU6EgA6b5zzFFaTLU7g3hyT3mKF7KsDMmRi",
+            p.jsx("button", {
+              className: "copy-button",
+              onClick: () => {
+                navigator.clipboard.writeText("w1nS1eDDZU6EgA6b5zzFFaTLU7g3hyT3mKF7KsDMmRi")
+                  .then(() => alert("Contract copied to clipboard!"))
+                  .catch((err) => console.error("Failed to copy:", err));
+              },
+              children: "Copy",
+            }),
+          ],
+        }),
+        p.jsx("div", { className: "Roadmap_step", children: "w1nS1eDDZU6EgA6b5zzFFaTLU7g3hyT3mKF7KsDMmRi" }),
+      ],
+    }),
+  })
+),
   dj = [
     "Smart Contracts",
     "Decentralized Finance (DeFi)",
