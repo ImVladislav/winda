@@ -12940,33 +12940,33 @@ const mv = new E6(),
             className: "Desctop_links",
             children: [
   
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: () => {
-                  ue.setWindowStatus("roadmap", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/roadmapLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Roadmap",
-                  }),
-                ],
-              }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: () => {
+              //     ue.setWindowStatus("roadmap", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/roadmapLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Roadmap",
+              //     }),
+              //   ],
+              // }),
               // p.jsxs("div", {
               //   className: "Desctop_link",
               //   onClick: () => {
@@ -13021,33 +13021,33 @@ const mv = new E6(),
                   }),
                 ],
               }),
-              p.jsxs("div", {
-                className: "Desctop_link",
-                onClick: () => {
-                  ue.setWindowStatus("milestones", "opened");
-                },
-                children: [
-                  p.jsx("div", {
-                    className: "Desctop_link_img_wrapper",
-                    children: p.jsx("img", {
-                      src: "/img/links/milestonesLink.png",
-                      className: "Desctop_link_img",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_arrow free_img",
-                    children: p.jsx("img", {
-                      src: "/img/links/arrow.png",
-                      alt: "decor",
-                    }),
-                  }),
-                  p.jsx("div", {
-                    className: "Desctop_link_text",
-                    children: "Milestones",
-                  }),
-                ],
-              }),
+              // p.jsxs("div", {
+              //   className: "Desctop_link",
+              //   onClick: () => {
+              //     ue.setWindowStatus("milestones", "opened");
+              //   },
+              //   children: [
+              //     p.jsx("div", {
+              //       className: "Desctop_link_img_wrapper",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/milestonesLink.png",
+              //         className: "Desctop_link_img",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_arrow free_img",
+              //       children: p.jsx("img", {
+              //         src: "/img/links/arrow.png",
+              //         alt: "decor",
+              //       }),
+              //     }),
+              //     p.jsx("div", {
+              //       className: "Desctop_link_text",
+              //       children: "Milestones",
+              //     }),
+              //   ],
+              // }),
               // p.jsxs("div", {
               //   className: "Desctop_link",
               //   onClick: () => {
@@ -13559,21 +13559,21 @@ const mv = new E6(),
                       "DEXscreener",
                     ],
                   }),
-                  p.jsxs("a", {
-                    href: "https://discord.gg/kSsdkkHmNU",
-                    target: "_blank",
-                    className: "Pusk_link",
-                    children: [
-                      p.jsx("div", {
-                        className: "Pusk_link_img",
-                        children: p.jsx("img", {
-                          src: "/img/media/bird.png",
-                          alt: "decor",
-                        }),
-                      }),
-                      "Discord",
-                    ],
-                  }),
+                  // p.jsxs("a", {
+                  //   href: "https://discord.gg/kSsdkkHmNU",
+                  //   target: "_blank",
+                  //   className: "Pusk_link",
+                  //   children: [
+                  //     p.jsx("div", {
+                  //       className: "Pusk_link_img",
+                  //       children: p.jsx("img", {
+                  //         src: "/img/media/bird.png",
+                  //         alt: "decor",
+                  //       }),
+                  //     }),
+                  //     "Discord",
+                  //   ],
+                  // }),
                 ],
               }),
               p.jsxs("div", {
