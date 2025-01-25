@@ -13545,7 +13545,7 @@ const mv = new E6(),
                     ],
                   }),
                   p.jsxs("a", {
-                    href: "https:///.com/solana/8ztb9xdw33yjhfwlxc9u9jox6sbd4x2rzsxm5g1z78e3",
+                    href: "/",
                     target: "_blank",
                     className: "Pusk_link",
                     children: [
@@ -13556,7 +13556,7 @@ const mv = new E6(),
                           alt: "decor",
                         }),
                       }),
-                      "/",
+                      "DEXscreener",
                     ],
                   }),
                   // p.jsxs("a", {
@@ -13749,7 +13749,7 @@ const mv = new E6(),
                           }),
                         }),
                         p.jsx("a", {
-                          href: "https:///.com/solana/8ztb9xdw33yjhfwlxc9u9jox6sbd4x2rzsxm5g1z78e3",
+                          href: "/",
                           target: "_blank",
                           children: p.jsx("img", {
                             src: "/img/media/bird.png",
@@ -16159,11 +16159,11 @@ const xr = new lj(),
                 p.jsx("button", {
                   onClick: () => {
                     window.open(
-                      "https:///.com/solana/8ztb9xdw33yjhfwlxc9u9jox6sbd4x2rzsxm5g1z78e3",
+                      "/",
                       "_blank"
                     );
                   },
-                  children: "Explore /",
+                  children: "Explore DEXscreener",
                 }),
               ],
             }),
@@ -22859,11 +22859,11 @@ const Ee = new L5(),
               p.jsx("button", {
                 onClick: () => {
                   window.open(
-                    "https:///.com/solana/8ztb9xdw33yjhfwlxc9u9jox6sbd4x2rzsxm5g1z78e3",
+                    "/",
                     "_blank"
                   );
                 },
-                children: "Explore /",
+                children: "Explore DEXscreener",
               }),
               p.jsx("button", {
                 onClick: () => {
@@ -67577,7 +67577,7 @@ const sie = async (r, e, t) => {
                       }),
                       p.jsx("a", {
                         className: "Flappy_play_btn Flappy_play_btn_pc",
-                        href: `https://x.com/Windowsolana`,
+                        href: `https://x.com/intent/post?hashtags=KNUT&text=I+REACHED+${Vt.score}+POINTS+IN+FLAPPY+KNUT%0D%0A&url=https://knut.wtf%0D%0A`,
                         target: "_blank",
                         children: "Share",
                       }),
@@ -67860,7 +67860,7 @@ const jt = new pie(),
       children: p.jsx("div", {
         className: "Chart",
         children: p.jsx("iframe", {
-          src: "https:///.com/solana/8ZTB9xdW33YjhFwLXC9u9joX6sBd4x2rzsXm5G1Z78e3?embed=1&loadChartSettings=0&chartLeftToolbar=0&chartTheme=dark&theme=dark&chartStyle=0&chartType=usd&interval=15",
+          src: "/",
         }),
       }),
     })
@@ -68876,7 +68876,7 @@ const vie = () => {
               p.jsx("br", {}),
               "Pump.Fun",
               p.jsx("br", {}),
-              "/",
+              "dexscreener",
             ],
           }),
         ],
